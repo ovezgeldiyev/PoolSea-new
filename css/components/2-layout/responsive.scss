@@ -1,0 +1,1339 @@
+// 1700px
+@include xxxxxlg-xxxxxxlg {
+  .main2 {
+  }
+  h1 {
+    &.big {
+      font-size: 90px;
+    }
+  }
+  .title {
+    font-size: 120px;
+  }
+  .title1 {
+    font-size: 100px;
+  }
+  .title2 {
+    font-size: 95px;
+
+    &.big {
+      font-size: 100px;
+    }
+
+    &.sm {
+      font-size: 88px;
+    }
+  }
+  .title3 {
+    font-size: 80px;
+    max-width: 920px;
+  }
+  .paragraph {
+    font-size: 24px;
+    line-height: 28px;
+    &.big {
+      font-size: 30px;
+    }
+  }
+  .input {
+    input,
+    textarea {
+      border-radius: 30px;
+      font-size: 20px;
+      padding: 40px 30px;
+    }
+    button {
+      right: 40px;
+    }
+  }
+  @include header-xxxxxlg-xxxxxxlg;
+  @include nav-xxxxxlg-xxxxxxlg;
+  @include hero2-xxxxxlg-xxxxxxlg;
+  @include drop-xxxxxlg-xxxxxxlg;
+  @include volume-xxxxxlg-xxxxxxlg;
+  @include cryptos-xxxxxlg-xxxxxxlg;
+  @include tabs-xxxxxlg-xxxxxxlg;
+}
+
+// 1450px
+@include xxxxlg-xxxxxlg {
+  .title {
+    font-size: 100px;
+  }
+  .title1 {
+    font-size: 85px;
+  }
+  .title2 {
+    font-size: 85px;
+
+    &.big {
+      font-size: 90px;
+    }
+
+    &.sm {
+      font-size: 80px;
+    }
+  }
+
+  h1 {
+    font-size: 80px;
+    line-height: 105px;
+    &.big {
+      font-size: 85px;
+    }
+    &.sm {
+      font-size: 80px;
+      line-height: 88px;
+    }
+  }
+
+  h2 {
+    font-size: 70px;
+    line-height: 78px;
+  }
+
+  h3 {
+    font-size: 50px;
+    line-height: 58px;
+  }
+
+  h4 {
+    font-size: 42px;
+    line-height: 49px;
+
+    &.sm {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+
+  h5 {
+    font-size: 25px;
+    line-height: 32px;
+
+    &.sm {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  p {
+    &.extra {
+      font-size: 26px;
+      line-height: 36px;
+    }
+  }
+  .title3 {
+    font-size: 75px;
+  }
+  @include cryptos-xxxxlg-xxxxxlg;
+}
+
+// 1380px
+@include xxxlg-xxxxlg {
+  .title {
+    font-size: 80px;
+  }
+  h1 {
+    font-size: 80px;
+    line-height: 92px;
+    &.big {
+      font-size: 80px;
+    }
+    &.sm {
+      font-size: 75px;
+      line-height: 84px;
+    }
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 68px;
+  }
+
+  h3 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+
+  h4 {
+    font-size: 35px;
+    line-height: 38px;
+
+    &.sm {
+      font-size: 28px;
+      line-height: 34px;
+    }
+  }
+
+  h5 {
+    font-size: 22px;
+    line-height: 28px;
+
+    &.sm {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .title1 {
+    font-size: 70px;
+  }
+  .title2 {
+    &.big {
+      font-size: 80px;
+    }
+
+    &.sm {
+      font-size: 70px;
+    }
+  }
+  .title3 {
+    font-size: 65px;
+    max-width: 740px;
+    b {
+      margin-right: 9px;
+    }
+  }
+  .title4 {
+    font-size: 50px;
+  }
+
+  .paragraph {
+    font-size: 20px;
+    line-height: 24px;
+
+    &.big {
+      font-size: 28px;
+    }
+    &.sm {
+      font-size: 17px;
+    }
+  }
+
+  .main {
+    padding-top: 180px;
+  }
+
+  .main2 {
+  }
+  .input {
+    input,
+    textarea {
+      border-radius: 24px;
+      font-size: 17px;
+      padding: 30px 24px;
+    }
+    button {
+      right: 30px;
+    }
+  }
+  @include header-xxxlg-xxxxlg;
+  @include nav-xxxlg-xxxxlg;
+  @include hero2-xxxlg-xxxxlg;
+  @include intro-xxxlg-xxxxlg;
+  @include bonus-xxxlg-xxxxlg;
+  @include status-xxxlg-xxxxlg;
+  @include steps-xxxlg-xxxxlg;
+  @include disclaimer-xxxlg-xxxxlg;
+  @include sponsors-xxxlg-xxxxlg;
+  @include team-xxxlg-xxxxlg;
+  @include cryptos-xxxlg-xxxxlg;
+  @include tabs-xxxlg-xxxxlg;
+}
+
+// 1250px
+@include xlg-xxlg-extra {
+  @include footer-xlg-xxlg-extra;
+  @include location-xlg-xxlg-extra;
+}
+
+// 1180px
+@include xlg-xxlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .auto__container {
+    padding: 0 30px;
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 82px;
+    &.big {
+      font-size: 70px;
+    }
+    &.sm {
+      font-size: 65px;
+      line-height: 72px;
+    }
+  }
+
+  h2 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+
+  h3 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  h4 {
+    font-size: 30px;
+    line-height: 34px;
+
+    &.sm {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+
+  p {
+    &.extra {
+      font-size: 23px;
+      line-height: 34px;
+    }
+
+    &.big {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &.sm {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  .title {
+    font-size: 70px;
+  }
+  .title1 {
+    font-size: 60px;
+  }
+  .title2 {
+    font-size: 70px;
+
+    &.big {
+      font-size: 75px;
+    }
+
+    &.sm {
+      font-size: 60px;
+    }
+  }
+
+  .title3 {
+    font-size: 60px;
+    max-width: 670px;
+
+    &.sm {
+      font-size: 60px;
+    }
+  }
+
+  .title4 {
+    font-size: 45px;
+  }
+
+  .title5 {
+    font-size: 28px;
+  }
+  .paragraph {
+    font-size: 18px;
+    line-height: 22px;
+
+    &.big {
+      font-size: 23px;
+    }
+  }
+  .scroll {
+    height: 60%;
+    &__bar {
+      width: 3px;
+      margin-right: 14px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .main {
+    padding-top: 150px;
+
+    &__note {
+      top: 90px;
+    }
+  }
+  .main2 {
+  }
+  .input {
+    input,
+    textarea {
+      border-radius: 18px;
+      font-size: 15px;
+      padding: 22px 20px;
+    }
+    button {
+      right: 30px;
+    }
+  }
+  @include header-xlg-xxlg;
+  @include nav-xlg-xxlg;
+  @include hero-xlg-xxlg;
+  @include intro-xlg-xxlg;
+  @include tab-xlg-xxlg;
+  @include team-xlg-xxlg;
+  @include donate-xlg-xxlg;
+  @include join-xlg-xxlg;
+  @include disclaimer-xlg-xxlg;
+  @include faq-xlg-xxlg;
+  @include sponsors-xlg-xxlg;
+  @include status-xlg-xxlg;
+  @include location-xlg-xxlg;
+  @include airdrop-xlg-xxlg;
+  @include bonus-xlg-xxlg;
+  @include rate-xlg-xxlg;
+  @include techspecs-xlg-xxlg;
+  @include about-xlg-xxlg;
+  @include work-xlg-xxlg;
+  @include features-xlg-xxlg;
+  @include info-xlg-xxlg;
+  @include fees-xlg-xxlg;
+  @include summary-xlg-xxlg;
+  @include staking-xlg-xxlg;
+  @include demo-xlg-xxlg;
+  @include aquaPool-xlg-xxlg;
+  @include update-xlg-xxlg;
+  @include network-xlg-xxlg;
+  @include benefits-xlg-xxlg;
+  @include tax-xlg-xxlg;
+  @include examples-xlg-xxlg;
+  @include emergency-xlg-xxlg;
+  @include dex-xlg-xxlg;
+  @include steps-xlg-xxlg;
+  @include chart-xlg-xxlg;
+  @include drop-xlg-xxlg;
+  @include earliest-xlg-xxlg;
+  @include volume-xlg-xxlg;
+  @include points-xlg-xxlg;
+  @include hero2-xlg-xxlg;
+  @include cryptos-xlg-xxlg;
+  @include intro2-xlg-xxlg;
+  @include tabs-xlg-xxlg;
+}
+
+// 1024px
+@include lg-xlg {
+  h1 {
+    font-size: 60px;
+    line-height: 72px;
+    &.big {
+      font-size: 62px;
+    }
+    &.sm {
+      font-size: 55px;
+      line-height: 63px;
+    }
+  }
+
+  h2 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+
+  h3 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  h4 {
+    font-size: 28px;
+    line-height: 32px;
+
+    &.sm {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+
+  h5 {
+    font-size: 20px;
+    line-height: 25px;
+
+    &.extra {
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    &.sm {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+
+  p {
+    &.extra {
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+  .title1 {
+    font-size: 53px;
+  }
+  .title2 {
+    font-size: 55px;
+
+    &.big {
+      font-size: 64px;
+    }
+
+    &.sm {
+      font-size: 50px;
+    }
+  }
+
+  .title3 {
+    font-size: 53px;
+    max-width: 600px;
+    &.sm {
+      font-size: 47px;
+    }
+  }
+
+  .title4 {
+    font-size: 40px;
+  }
+
+  .title5 {
+    font-size: 25px;
+  }
+
+  .paragraph {
+    &.big {
+      font-size: 20px;
+    }
+    &.sm {
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  .main {
+    padding-top: 110px;
+
+    &__note {
+      width: calc(100% - 60px);
+
+      &-outer {
+        margin-bottom: 150px;
+      }
+    }
+  }
+  .scroll {
+    max-height: 420px;
+    &__bar {
+      span {
+        height: 60px;
+      }
+    }
+  }
+  .swiperBtn {
+    width: 42px;
+    height: 42px;
+
+    &::after {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+
+  .check {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  @keyframes scroll {
+    0% {
+      bottom: 100%;
+      height: 60px;
+    }
+
+    100% {
+      bottom: -180px;
+      height: 120px;
+    }
+  }
+  @include hero-lg-xlg;
+  @include hero2-lg-xlg;
+  @include intro-lg-xlg;
+  @include tab-lg-xlg;
+  @include team-lg-xlg;
+  @include donate-lg-xlg;
+  @include disclaimer-lg-xlg;
+  @include sponsors-lg-xlg;
+  @include status-lg-xlg;
+  @include location-lg-xlg;
+  @include airdrop-lg-xlg;
+  @include bonus-lg-xlg;
+  @include faq-lg-xlg;
+  @include rate-lg-xlg;
+  @include about-lg-xlg;
+  @include work-lg-xlg;
+  @include features-lg-xlg;
+  @include fees-lg-xlg;
+  @include summary-lg-xlg;
+  @include aquaPool-lg-xlg;
+  @include update-lg-xlg;
+  @include network-lg-xlg;
+  @include benefits-lg-xlg;
+  @include tax-lg-xlg;
+  @include examples-lg-xlg;
+  @include pool-lg-xlg;
+  @include volume-lg-xlg;
+  @include cryptos-lg-xlg;
+  @include tabs-lg-xlg;
+  @include footer-lg-xlg;
+}
+
+// 930px
+@include md-lg {
+  h1 {
+    &.big {
+      font-size: 56px;
+    }
+  }
+  h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  h5 {
+    &.extra {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    &.sm {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+
+  h6 {
+    &.sm {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+
+  p {
+    &.big {
+      font-size: 15px;
+      line-height: 19px;
+    }
+  }
+  .title {
+    font-size: 60px;
+  }
+  .title1 {
+    font-size: 47px;
+  }
+  .title2 {
+    font-size: 40px;
+
+    &.big {
+      font-size: 54px;
+    }
+
+    &.sm {
+      font-size: 45px;
+    }
+  }
+
+  .title3 {
+    font-size: 40px;
+    max-width: 450px;
+    &.sm {
+      font-size: 40px;
+    }
+  }
+
+  .title4 {
+    font-size: 35px;
+  }
+
+  .title5 {
+    font-size: 22px;
+  }
+
+  .circle {
+    width: 550px;
+    height: 550px;
+  }
+
+  .main {
+    &__note {
+      padding: 20px 70px 20px 20px;
+
+      &-icon {
+        margin-right: 18px;
+      }
+
+      span {
+        top: 24px;
+        right: 24px;
+      }
+    }
+  }
+
+  @include hero-md-lg;
+  @include tab-md-lg;
+  @include donate-md-lg;
+  @include footer-md-lg;
+  @include status-md-lg;
+  @include airdrop-md-lg;
+  @include bonus-md-lg;
+  @include info-md-lg;
+  @include about-md-lg;
+  @include work-md-lg;
+  @include techspecs-md-lg;
+  @include dex-md-lg;
+  @include fees-md-lg;
+  @include staking-md-lg;
+  @include demo-md-lg;
+  @include aquaPool-md-lg;
+  @include benefits-md-lg;
+  @include tax-md-lg;
+  @include emergency-md-lg;
+  @include steps-md-lg;
+  @include chart-md-lg;
+  @include join-md-lg;
+  @include cryptos-md-lg;
+}
+
+// 840px
+@include md-lg-extra {
+  h1 {
+    &.big {
+      font-size: 51px;
+    }
+  }
+  .title {
+    font-size: 50px;
+  }
+  .title1 {
+    font-size: 41px;
+  }
+  .title2 {
+    &.big {
+      font-size: 48px;
+    }
+
+    &.sm {
+      font-size: 40px;
+    }
+  }
+
+  .title3 {
+    font-size: 34px;
+    max-width: 385px;
+    b {
+      margin-right: 6px;
+    }
+    &.sm {
+      font-size: 35px;
+    }
+  }
+
+  .title4 {
+    font-size: 30px;
+  }
+
+  .title5 {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 19px;
+    &.big {
+      font-size: 15px;
+    }
+    &.sm {
+      font-size: 11px;
+    }
+
+    &.ex {
+      font-size: 11px;
+      line-height: 14px;
+    }
+  }
+  .scroll {
+    display: none;
+  }
+  .input {
+    input,
+    textarea {
+      font-size: 14px;
+      border-radius: 14px;
+      padding: 16px 19px;
+      background-color: #293e5b;
+    }
+    button {
+      width: 20px;
+      height: 20px;
+      right: 15px;
+      img {
+        width: 85%;
+      }
+    }
+  }
+  @include disclaimer-md-lg-extra;
+  @include sponsors-md-lg-extra;
+  @include airdrop-md-lg-extra;
+  @include bonus-md-lg-extra;
+  @include rate-md-lg-extra;
+  @include aquaPool-md-lg-extra;
+  @include network-md-lg-extra;
+  @include join-md-lg-extra;
+  @include faq-md-lg-extra;
+  @include status-md-lg-extra;
+  @include team-md-lg-extra;
+  @include drop-md-lg-extra;
+  @include earliest-md-lg-extra;
+  @include volume-md-lg-extra;
+  @include points-md-lg-extra;
+  @include hero2-md-lg-extra;
+  @include intro2-md-lg-extra;
+  @include cryptos-md-lg-extra;
+  @include tabs-md-lg-extra;
+}
+
+// 750px
+@include sm-md {
+  html[data-theme|="dark"] {
+    --bgColor: #06070a;
+  }
+
+  .auto__container {
+    padding: 0 20px;
+  }
+
+  .auto__container2 {
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 55px;
+    line-height: 64px;
+
+    &.sm {
+      font-size: 50px;
+      line-height: 58px;
+    }
+  }
+
+  h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 28px;
+
+    &.sm {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .title {
+    font-size: 45px;
+  }
+  .title2 {
+    font-size: 35px;
+
+    &.big {
+      font-size: 42px;
+    }
+  }
+  .title3 {
+    font-size: 30px;
+    max-width: 340px;
+  }
+  .main {
+    &__bg {
+      height: 10%;
+    }
+
+    &__note {
+      width: calc(100% - 40px);
+      padding: 20px 60px 20px 20px;
+
+      p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+
+    &.sm {
+      padding: 0;
+    }
+  }
+
+  @include hero-sm-md;
+  @include tab-sm-md;
+  @include team-sm-md;
+  @include donate-sm-md;
+  @include join-sm-md;
+  @include faq-sm-md;
+  @include status-sm-md;
+  @include techspecs-sm-md;
+  @include info-sm-md;
+  @include dex-sm-md;
+  @include summary-sm-md;
+  @include update-sm-md;
+  @include benefits-sm-md;
+  @include tax-sm-md;
+  @include examples-sm-md;
+  @include pool-sm-md;
+  @include steps-sm-md;
+  @include chart-sm-md;
+  @include earliest-sm-md;
+  @include points-sm-md;
+  @include cryptos-sm-md;
+  @include tabs-sm-md;
+  @include footer-sm-md;
+}
+
+// 650px
+@include sm-md-extra {
+  h1 {
+    &.big {
+      font-size: 45px;
+    }
+  }
+  .title {
+    font-size: 40px;
+  }
+  .title1 {
+    font-size: 38px;
+  }
+  .title3 {
+    font-size: 28px;
+    max-width: 315px;
+  }
+  .title5 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .input {
+    input,
+    textarea {
+      font-size: 11px;
+      padding: 12px 14px;
+      border-radius: 10px;
+    }
+    button {
+      width: 13px;
+      height: 13px;
+      right: 10px;
+    }
+  }
+  @include hero-sm-md-extra;
+  @include location-sm-md-extra;
+  @include airdrop-sm-md-extra;
+  @include rate-sm-md-extra;
+  @include info-sm-md-extra;
+  @include about-sm-md-extra;
+  @include work-sm-md-extra;
+  @include features-sm-md-extra;
+  @include techspecs-sm-md-extra;
+  @include footer-sm-md-extra;
+  @include fees-sm-md-extra;
+  @include summary-sm-md-extra;
+  @include aquaPool-sm-md-extra;
+  @include network-sm-md-extra;
+  @include emergency-sm-md-extra;
+  @include join-sm-md-extra;
+  @include disclaimer-sm-md-extra;
+  @include faq-sm-md-extra;
+  @include volume-sm-md-extra;
+  @include cryptos-sm-md-extra;
+  @include tabs-sm-md-extra;
+}
+
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 45px;
+    line-height: 52px;
+    &.big {
+      font-size: 38px;
+    }
+    &.sm {
+      font-size: 38px;
+      line-height: 45px;
+    }
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  h4 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  h5 {
+    &.extra {
+      font-size: 16px;
+      line-height: 19px;
+    }
+
+    &.sm {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+  p {
+    &.extra {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    &.sm {
+      font-size: 15px;
+      line-height: 19px;
+    }
+  }
+  .title {
+    font-size: 35px;
+  }
+  .title2 {
+    font-size: 30px;
+
+    &.big {
+      font-size: 35px;
+    }
+
+    &.sm {
+      font-size: 30px;
+    }
+  }
+  .title3 {
+    font-size: 26px;
+    width: 100%;
+    max-width: unset;
+  }
+  .swiperBtn {
+    width: 36px;
+    height: 36px;
+
+    &::after {
+      font-size: 12px;
+      line-height: 12px;
+    }
+  }
+
+  .circle {
+    display: none;
+    width: 320px;
+    height: 320px;
+  }
+
+  .main {
+    &__bg {
+      height: 7%;
+      display: none;
+    }
+
+    &__note {
+      padding: 12px 40px 12px 12px;
+      top: 76px;
+
+      &-outer {
+        margin-bottom: 110px;
+      }
+
+      &-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        margin-top: 4px;
+      }
+
+      span {
+        top: 18px;
+        right: 18px;
+        width: 11px;
+        height: 11px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 18px;
+        width: calc(100% - 35px);
+      }
+    }
+  }
+
+  .check {
+    span {
+      font-size: 12px;
+      line-height: 18px;
+      width: 380px;
+      padding: 8px 10px;
+    }
+  }
+  .input {
+    input,
+    textarea {
+      font-size: 14px;
+      line-height: 16px;
+      border-radius: 13px;
+      padding: 13px 30px 13px 19px;
+    }
+    button {
+      width: 14px;
+      height: 17px;
+      right: 16px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include intro-xsm-sm;
+  @include tab-xsm-sm;
+  @include donate-xsm-sm;
+  @include join-xsm-sm;
+  @include faq-xsm-sm;
+  @include sponsors-xsm-sm;
+  @include status-xsm-sm;
+  @include location-xsm-sm;
+  @include fees-xsm-sm;
+  @include summary-xsm-sm;
+  @include demo-xsm-sm;
+  @include update-xsm-sm;
+  @include network-xsm-sm;
+  @include benefits-xsm-sm;
+  @include tax-xsm-sm;
+  @include examples-xsm-sm;
+  @include team-xsm-sm;
+  @include steps-xsm-sm;
+  @include chart-xsm-sm;
+  @include disclaimer-xsm-sm;
+  @include drop-xsm-sm;
+  @include earliest-xsm-sm;
+  @include volume-xsm-sm;
+  @include points-xsm-sm;
+  @include cryptos-xsm-sm;
+  @include intro2-xsm-sm;
+  @include tabs-xsm-sm;
+  @include hero2-xsm-sm;
+  @include footer-xsm-sm;
+}
+
+// 440px
+@include xxsm-xsm {
+  h1 {
+    font-size: 40px;
+    line-height: 47px;
+
+    &.sm {
+      font-size: 34px;
+      line-height: 42px;
+    }
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  h6 {
+    &.sm {
+      font-size: 13px;
+      line-height: 15px;
+    }
+  }
+
+  p {
+    &.extra {
+      font-size: 15px;
+      line-height: 19px;
+    }
+  }
+
+  .title2 {
+    &.big {
+      font-size: 30px;
+    }
+  }
+  .title3 {
+    font-size: 23px;
+    b {
+      -webkit-text-stroke: 0.6px;
+      -webkit-text-stroke-color: #6A8FD7;
+      margin-right: 0;
+    }
+  }
+  .title5 {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .paragraph {
+    &.big {
+      font-size: 13px;
+    }
+  }
+  .main {
+    padding-top: 110px;
+
+    &__note {
+      top: 90px;
+
+      p {
+        font-size: 10px;
+        line-height: 14px;
+      }
+    }
+  }
+  .input {
+    input,
+    textarea {
+      padding: 12px 50px 12px 19px;
+      height: 57px;
+    }
+  }
+  @include header-xxsm-xsm;
+  @include nav-xxsm-xsm;
+  @include hero-xxsm-xsm;
+  @include donate-xxsm-xsm;
+  @include tab-xxsm-xsm;
+  @include footer-xxsm-xsm;
+  @include disclaimer-xxsm-xsm;
+  @include location-xxsm-xsm;
+  @include airdrop-xxsm-xsm;
+  @include bonus-xxsm-xsm;
+  @include techspecs-xxsm-xsm;
+  @include dex-xxsm-xsm;
+  @include fees-xxsm-xsm;
+  @include summary-xxsm-xsm;
+  @include staking-xxsm-xsm;
+  @include aquaPool-xxsm-xsm;
+  @include team-xxsm-xsm;
+  @include network-xxsm-xsm;
+  @include tax-xxsm-xsm;
+  @include emergency-xxsm-xsm;
+  @include steps-xxsm-xsm;
+  @include intro-xxsm-xsm;
+  @include faq-xxsm-xsm;
+  @include status-xxsm-xsm;
+  @include earliest-xxsm-xsm;
+  @include volume-xxsm-xsm;
+  @include points-xxsm-xsm;
+  @include hero2-xxsm-xsm;
+  @include cryptos-xxsm-xsm;
+  @include intro2-xxsm-xsm;
+}
+
+// 390px
+@include xxxsm-xxsm {
+  .auto__container2 {
+    padding: 0 15px;
+  }
+
+  .main {
+    &__note {
+      width: calc(100% - 30px);
+    }
+  }
+
+  .check {
+    span {
+      width: 240px;
+      font-size: 11px;
+      line-height: 14px;
+    }
+  }
+
+  @include footer-xxxsm-xxsm;
+  @include join-xxxsm-xxsm;
+  @include faq-xxxsm-xxsm;
+  @include sponsors-xxxsm-xxsm;
+  @include location-xxxsm-xxsm;
+  @include airdrop-xxxsm-xxsm;
+  @include bonus-xxxsm-xxsm;
+  @include rate-xxxsm-xxsm;
+  @include techspecs-xxxsm-xxsm;
+  @include about-xxxsm-xxsm;
+  @include work-xxxsm-xxsm;
+  @include features-xxxsm-xxsm;
+  @include dex-xxxsm-xxsm;
+  @include fees-xxxsm-xxsm;
+  @include summary-xxxsm-xxsm;
+  @include aquaPool-xxxsm-xxsm;
+  @include update-xxxsm-xxsm;
+  @include examples-xxxsm-xxsm;
+  @include team-xxxsm-xxsm;
+  @include benefits-xxxsm-xxsm;
+  @include chart-xxxsm-xxsm;
+  @include info-xxxsm-xxsm;
+  @include drop-xxxsm-xxsm;
+  @include hero2-xxxsm-xxsm;
+}
+
+// 370px
+@include xxxxsm-xxxsm {
+  .main {
+    &__note {
+      padding: 10px 34px 10px 10px;
+      border-radius: 6px;
+
+      &-outer {
+        margin-bottom: 90px;
+      }
+
+      &-icon {
+        margin-top: 2px;
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+      }
+
+      span {
+        top: 12px;
+        right: 12px;
+        width: 10px;
+        height: 10px;
+      }
+
+      p {
+        font-size: 9px;
+        line-height: 11px;
+      }
+    }
+  }
+
+  @include nav-xxxxsm-xxxsm;
+}
